@@ -1,0 +1,18 @@
+{
+  "author": "Ozten <shout@ozten.com> (https://ozten.com)",
+  "name": "delegat.es",
+  "description": "A Persona IdP which delegates to another IdP",
+  "version": "0.0.0",
+  "homepage": "https://delegat.es",
+  "repository": {
+    "url": "https://github.com/mozilla/browserid-delegates"
+  },
+  "dependencies": {
+    "awsbox": "0.2.17"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
