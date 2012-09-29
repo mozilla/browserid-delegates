@@ -4,7 +4,7 @@ You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 const http = require('http');
 
-const PERSONA_IDP = 'eyedee.me';
+const PERSONA_IDP = 'mockmyid.com';
 
 http.createServer(function (req, res) {
   if (req.url.indexOf('/.well-known/browserid') !== -1) {
